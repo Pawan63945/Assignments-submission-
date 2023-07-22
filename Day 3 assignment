@@ -1,0 +1,13 @@
+/*Write a JavaScript function called "calculateArea" that takes two parameters: "length" and "width". The function should calculate and return the area of a rectangle using the given length and width.*/
+
+let length=prompt("Enter lenth of rectangle ")
+length =Number.parseInt(length)
+
+let width=prompt("Enter width of rectangle ")
+width =Number.parseInt(width)
+
+function calculateArea(l,b){
+    return (l*b)
+}
+
+console.log(calculateArea(length, width))
